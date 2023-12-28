@@ -87,7 +87,6 @@ const Cart: React.FC = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"></path>
             </svg>
-
             <span>Очистить корзину</span>
           </div>
         </div>
@@ -99,11 +98,9 @@ const Cart: React.FC = () => {
         <div className="cart__bottom">
           <div className="cart__bottom-details">
             <span>
-              {' '}
               Всего пицц: <b>{totalCount} шт.</b>{' '}
             </span>
             <span>
-              {' '}
               Сумма заказа: <b>{totalPrice} ₽</b>{' '}
             </span>
           </div>
